@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<link rel="stylesheet" type="text/css" href="tags.css">
+	
+	<title>Reservations</title>
+	
+	<style type="text/css">
+	
+	<!--Hoover Effect-->
+	a:link { background-color:red; }
+		a:visited { background-color:green; }
+		a:hover{ background-color:yellow; }
+		a:selected { background-color:black; }
+	
+	</style>
+	
+	</head>
+	
+	<body bgcolor="#FEAA30">
+	
+	<!--Menu Tags-->
+	
+	<table border="1" width="100%" cellpadding="10">
+	<tr><td style="text-align:center"><a href="Home.html">Home</a></td>
+	<td style="text-align:center"><a href="Drinks.html">Drinks|Desserts</a></td>
+	<td style="text-align:center"><a href="Menu.html">Menu</a></td>
+	<td style="text-align:center"><a href="Reservations.html">Reservations</a></td>
+	<td style="text-align:center"><a href="ContactUs.html">Contact Us</a></td></tr>
+	</table>
+	</br>
+	<img style="display:block; margin-left:auto; margin-right:auto" 
+	src="logo.png" alt="Restaurant Logo" height="180" width="150">
+	
+	
+	<img src="makereservation.png" height="100%" width="100%">
+	
+	<form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" 
+	method="post">
+	
+	<!--Making a fieldset for reservation-->
+	
+	<fieldset>
+	
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   <!-- Adding some space to make it nicer-->
+	<font size="4">
+	<b>First Name:</b> <input type="text" name="firstname"/> 
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<b>Last Name:</b> <input type="text" name="lastname"/> 
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<b>Date/Month:</b> <input type="text" name="date/month"/>
+		</br></br></br></br></br>
+	
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <!-- Adding some space to make it nicer-->
+	
+	<b>Time:</b> <input type="text" name="time"/> 
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<b>Phone Number:</b> <input type="text" name="phonenumber"/> 
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<b>Email:</b> <input type="text" name="email"/>
+	</br></br></br></br></br>
+	
+	
+	&nbsp    
+	<b>Reservation Place:</b>
+		In-Door<input type="radio" name="reservationplace" value="In-Door"/>
+		Out-Door<input type="radio" name="reservationplace" value="Out-Door"/>
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<b>Themes of Reservation:</b> <select name="timeofreservation"> 
+	<option>Birthday Party</option>
+	<option>Marriage Ceremony</option>
+	<option>Diplomatic Party</option>
+	<option>Fund Raising Party</option>
+	<option>None of the above</option>
+	</select>
+	</font>
+	</br></br></br></br>
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <!-- Adding some space to make it nicer-->
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	
+	<input type="submit" value="Click to Submit"/>
+	</fieldset>
+	</form>
+	</body>
+</html>
